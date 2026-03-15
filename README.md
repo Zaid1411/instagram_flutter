@@ -35,7 +35,7 @@ Ensure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) 
 
 1.  **Clone the project** and navigate to the directory:
     ```bash
-    cd flutter_application_1
+    cd instagram_flutter
     ```
 
 2.  **Install dependencies**:

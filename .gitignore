@@ -1,0 +1,57 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.idea/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks used locally in VS Code
+.vscode/
+
+# Flutter/Dart related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place separate folders for each platform
+/android/key.properties
+/android/app/src/main/res/raw/google_services.json
+/ios/Runner/GoogleService-Info.plist
+/ios/Firebase/google-services.json
+
+# Exceptions to above rules.
+!**/ios/Flutter/App.framework
+!**/ios/Flutter/Flutter.framework
+!**/ios/Flutter/Flutter.podspec
+!**/ios/Flutter/Generated.xcconfig
+!**/ios/Flutter/appframeworkinfo.plist
+!**/ios/Flutter/generated_assets/
+!**/android/app/src/main/res/values/strings.xml
+!**/android/app/src/main/res/values/styles.xml
+!**/build/host/outputs/bundle/release/app-release.aab
+!**/build/host/outputs/apk/release/app-release.apk
+!**/build/host/outputs/bundle/debug/app-debug.aab
+!**/build/host/outputs/apk/debug/app-debug.apk
